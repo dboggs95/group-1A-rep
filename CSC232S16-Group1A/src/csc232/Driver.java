@@ -139,7 +139,7 @@ public class Driver
 			}
 			else if(map.get(mapIndex).getRiddler().getName().equals("final"))
 			{
-				System.out.println("Duhhhhhhhhhh... you wumbo. The gates open. A staircase leads you to a steampunk rocket. You walk in to the rocket, the doors close behind you. You feel unsafe, but there's a pulley like in the trolley cars. You take off. Just as you begin to see the stars, a bright light flashes above the ship. The ship goes into it. The floating steampunk city appears in the clouds. You have passed this difficult yet very easy trial. Congratulations.");
+				System.out.println("Duhhhhhhhhhh... you wumbo. The gates open. A staircase leads you to a steampunk rocket. You walk in to the rocket, the doors close behind you. You feel unsafe, but there's a pulley like in the trolley cars. You are reassured that this ship is built with the highest Victorian safety standards in mind. You take off. Just as you begin to see the stars, a bright light flashes above the ship. The ship goes into it. The floating steampunk city appears in the clouds. You have passed this difficult yet very easy trial. Congratulations.");
 				map.get(mapIndex).setLocked("south");
 				
 			}
@@ -393,7 +393,7 @@ public class Driver
 		map.add(MLevel1);
 		Location MTrap1 = new Location("mtrap1", "You should not have entered the hallway you fool! You are being impaled by harpoons! You die and go to Sam Hill...", null, null, null, null); //3
 		map.add(MTrap1);
-		Location WLevel1 = new Location("wlevel1", "To the east is the area you came from and the opposing area with the door on its South. To your South is a like door, with more magnificient Steampunk etchings. Before the door is a suit of knight's armour with a steampowered jetpack on its back. To the west is a small corridor with a podium inside. On top of this podium is steamed brocolli and you are mighty hungry.", "wlevel2", null, "wtrap1", "mlevel1", false, false, false, false); //4
+		Location WLevel1 = new Location("wlevel1", "To the east is the area you came from and the opposing area with the door on its South. To your South is a like door, with more magnificient Steampunk etchings. Before the door is a suit of knight's armor with a steampowered jetpack on its back. To the west is a small corridor with a podium inside. On top of this podium is steamed brocolli and you are mighty hungry.", "wlevel2", null, "wtrap1", "mlevel1", false, false, false, false); //4
 		map.add(WLevel1);
 		Location WTrap1 = new Location("wtrap1", "You follow your stomach into the corridor with the steamed broccoli. It doesn't occur to you to think about how steamed brocolli is just laying around in a temple, but you probably should have as it is actually just steam with a hologram. And so is the floor beneath you. As you read this, you are falling through the steam! You die and go to Sam Hill...", "wlevel2", null, null, null); //5
 		map.add(WTrap1);

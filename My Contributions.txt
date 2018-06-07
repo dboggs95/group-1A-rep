@@ -1,0 +1,3 @@
+My contributions were mostly to the Item, Location, RiddleItem, and ContainerItem classes. I am also partly responsible for the outrageousness of the plot, although everyone had a hand in it.
+
+Taras and I both began writing them at first, but the logic of the code was initially making it difficult to write the Driver. So I spent several hours doing an overhaul of these classes, making it much easier to use them in the Driver. Then everyone else got together and wrote the majority of the Driver based on how we designed the game.

@@ -27,7 +27,7 @@ public class Location
 	public Location()
 	{
 		shortName = "samHill";
-		desc = "You realise it is quite toasty. 'Where in Sam Hill am I?' you wonder. Oh, actually you are in Sam Hill; you are being engulfed in eternal hellfire! The Devil just stands there, jeering at you! But perhaps he would cut a deal...";
+		desc = "You realize it is quite toasty. 'Where in Sam Hill am I?' you wonder. Oh, actually you are in Sam Hill; you are being engulfed in eternal flames! The Devil just stands there, jeering at you! But perhaps he would cut a deal...";
 		items = new ArrayList<Item>();
 		holders = new ArrayList<ContainerItem>();
 		riddler = new RiddleItem();

@@ -11,10 +11,6 @@ package csc232;
  * or flashlight, which is lit (active) or is not lit (inactive).
  * The toString method is designed to reflect whether at least
  * one of these two boolean variables are true.
- * I thought about adding a weight variable, plus a questAction 
- * variable to keep track of a legal action that might render
- * the quest item unusable as an exception against illegal
- * destructive actions, but I didn't want to go overboard.
 */
 
 public class Item 
@@ -30,7 +26,7 @@ public class Item
 	{
 		shortName = "item";
 		type = "generic";
-		desc = "Those idiot developers let a generic item into the game!";
+		desc = "How careless! The developers left a generic item here! That shouldn't have happened!";
 	}
 	public Item(String n, String t, String d)
 	{
